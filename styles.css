@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+@font-face {
+    font-family:hero;
+    src: url(fonts/hero-2-cufonfonts/HeroLight-Regular.otf);
+}
+body {
+    font-family: hero;
+}
+
+.navbar {
+    background-color: #1F2937;
+    color: white
+}
+
+.topBox {
+    background-color: #1F2937;
+    color: white;
+}
