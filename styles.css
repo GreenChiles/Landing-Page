@@ -1,5 +1,5 @@
 * {
-    border: 0.5px solid red;
+   /* border: 0.2px solid green; */
 }
 
 html {
@@ -20,6 +20,8 @@ body {
 
 a {
     color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .navbar {
@@ -28,12 +30,13 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 30px;
 }
 
 #headerLogo {
     margin-left: 200px;
     font-weight: bolder;
+    font-size: 24px;
     order: 1; 
     
 }
@@ -56,4 +59,24 @@ a {
 .topBox {
     background-color: #1F2937;
     color: white;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content:center;
 }
+ #leftContainer {
+    height: 150px;
+    width: 400px;
+    background-color:orange;
+ }
+
+ #title {
+     font-size: 48px;
+ }
+ #rightContainer {
+     height: 150px;
+     width: 400px;
+     background-color: grey;
+     text-align:center;
+     
+ }
