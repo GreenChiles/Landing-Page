@@ -1,5 +1,5 @@
 * {
-   /* border: 0.2px solid purple; */
+  /*  border: 0.2px solid purple; */
 }
 
 html {
@@ -67,12 +67,18 @@ a {
  #leftContainer {
     height: 150px;
     width: 400px;
-    background-color:orange;
+    background-color:#1F2937
  }
 
- /*.button {
+ #signUpButton{
      background-color: purple;
- } */
+    position: relative; 
+     bottom: 15px;
+     color: white;
+     font-weight: bold;
+     border-radius: 6px;
+     width: 100px;
+ } 
 
  #title {
      font-size: 48px;
