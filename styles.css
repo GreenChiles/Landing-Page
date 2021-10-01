@@ -1,5 +1,5 @@
 * {
-  /*  border: 0.2px solid purple; */
+   border: 0.2px solid purple; */
 }
 
 html {
@@ -101,6 +101,14 @@ a {
      gap: 40px;
  }
 
+ .midSubtext {
+     display:flex;
+     width: 1000px;
+     justify-content: center;
+     margin: auto;
+     gap: 40px;
+ }
+
  #boxFrame1 {
 height: 125px;
 width: 125px;
@@ -127,4 +135,32 @@ height: 125px;
 width: 125px;
 border: 5px solid orange;
 border-radius: 10px;
+ }
+
+ #subtext1{
+     height: 125px;
+     width: 125px;
+     word-wrap: break-word;
+     text-align: center;
+ }
+
+ #subtext2{
+    height: 125px;
+    width: 125px;
+    word-wrap: break-word;
+    text-align: center;
+ }
+
+ #subtext3{
+    height: 125px;
+    width: 125px;
+    word-wrap: break-word;
+    text-align: center;
+ }
+
+ #subtext4{
+    height:125px;
+    width: 125px;
+    word-wrap: break-word;
+    text-align: center;
  }
