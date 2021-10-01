@@ -1,5 +1,5 @@
 * {
-   /* border: 0.2px solid green; */
+   /* border: 0.2px solid purple; */
 }
 
 html {
@@ -70,13 +70,55 @@ a {
     background-color:orange;
  }
 
+ /*.button {
+     background-color: purple;
+ } */
+
  #title {
      font-size: 48px;
+     line-height: 40px;
+     margin-bottom: -20px;
+     padding: 5px;
  }
  #rightContainer {
      height: 150px;
      width: 400px;
      background-color: grey;
      text-align:center;
-     
+ }
+
+ .midBox {
+     display:flex;
+    width: 1000px;
+     justify-content:center;
+     margin: auto;
+     gap: 40px;
+ }
+
+ #boxFrame1 {
+height: 125px;
+width: 125px;
+border: 5px solid orange;
+border-radius: 10px;
+ }
+
+ #boxFrame2 {
+height: 125px;
+width: 125px;
+border: 5px solid orange;
+border-radius: 10px;
+ }
+
+ #boxFrame3 {
+height: 125px;
+width: 125px;
+border: 5px solid orange;
+border-radius: 10px;
+ }
+
+ #boxFrame4 {
+height: 125px;
+width: 125px;
+border: 5px solid orange;
+border-radius: 10px;
  }
