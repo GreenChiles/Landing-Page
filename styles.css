@@ -98,7 +98,7 @@ a {
     width: 1000px;
      justify-content:center;
      margin: auto;
-     gap: 40px;
+     gap: 30px;
  }
 
  .midSubtext {
@@ -149,6 +149,7 @@ border-radius: 10px;
     width: 125px;
     word-wrap: break-word;
     text-align: center;
+
  }
 
  #subtext3{
