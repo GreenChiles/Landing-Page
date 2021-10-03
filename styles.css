@@ -165,3 +165,17 @@ border-radius: 10px;
     word-wrap: break-word;
     text-align: center;
  }
+
+ .lowBox {
+     background-color: #E5E7EB;
+     height: 200px;
+     display: flex;
+ }
+
+ #lowQuoteInnerBox {
+     height: 100px;
+     width: 500px;
+     align-items: center;
+     justify-self: center;
+     background-color: tomato;
+ }
