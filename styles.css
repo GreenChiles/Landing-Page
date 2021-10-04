@@ -169,13 +169,20 @@ border-radius: 10px;
  .lowBox {
      background-color: #E5E7EB;
      height: 200px;
+     width: auto;
      display: flex;
+     align-items: center;
+     justify-content: center;
  }
 
  #lowQuoteInnerBox {
      height: 100px;
      width: 500px;
+     background-color:#E5E7EB
+     text-align: center;
      align-items: center;
-     justify-self: center;
-     background-color: tomato;
+     display: flex;
+     justify-content: center;
+     word-wrap: break-word;
+     font-style: italic;
  }
