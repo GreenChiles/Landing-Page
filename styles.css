@@ -188,11 +188,11 @@ border-radius: 10px;
  }
 
  .blueContainer {
-    background-color: #3882F6; 
+    background-color:firebrick; 
     width: 600px;
     height: 100px;
     justify-content: center;
-    display: flex;
+    display:flex;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -201,10 +201,10 @@ border-radius: 10px;
  #signUp {
      margin-left: 400px;
      background-color:#3882F6;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: 100px;
+     display: grid;
+     width: 150px;
+     height: auto;
+     left: 50px;
      position: relative;
  }
 
@@ -217,11 +217,11 @@ border-radius: 10px;
 
  #blueTextBox {
      background-color:deepskyblue;
-     width: 300px;
+     width: 600px;
      height: 50%;
      position: relative;
      order: 1;
-     display: inline-block;
+     display: block;
      right: 300px;
  }
 
