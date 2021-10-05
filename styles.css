@@ -195,6 +195,7 @@ border-radius: 10px;
     display: flex;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
  }
 
  #signUp {
@@ -222,4 +223,14 @@ border-radius: 10px;
      order: 1;
      display: inline-block;
      right: 300px;
+ }
+
+ footer { 
+background-color: #1F2937;
+margin-top: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+height: 75px;
  }
