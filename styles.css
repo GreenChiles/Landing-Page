@@ -1,6 +1,6 @@
-* {
+/* {
    border: 0.2px solid purple; 
-}
+} */
 
 html {
     height: 100%;
@@ -188,42 +188,44 @@ border-radius: 10px;
  }
 
  .blueContainer {
-    background-color:firebrick; 
+    background-color:#3882F6; 
     width: 600px;
     height: 100px;
-    justify-content: center;
     display:flex;
+    flex-direction: row-reverse;
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 30px;
+    align-items: center;
  }
 
- #signUp {
+/* #signUp {
      margin-left: 400px;
      background-color:#3882F6;
-     display: grid;
      width: 150px;
      height: auto;
-     left: 50px;
-     position: relative;
- }
+     left: 50px; 
+ } */
+
+ #blueTextBox {
+    background-color:#3882F6;
+    color: white;
+    width: 400px;
+    height: 80px;
+    text-align: left;
+    line-height: 70px;
+}
 
  #bottomSignUp {
      background-color: #3882F6;
      border: 1px solid white;
      color: white;
-     order: 2;
+    width: 120px;
+    
  }
 
- #blueTextBox {
-     background-color:deepskyblue;
-     width: 600px;
-     height: 50%;
-     position: relative;
-     order: 1;
-     display: block;
-     right: 300px;
- }
+ 
 
  footer { 
 background-color: #1F2937;
