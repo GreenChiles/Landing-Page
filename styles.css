@@ -16,6 +16,9 @@ body {
     font-family: hero;
     padding: 0px;
     margin: 0px;
+    min-width: fit-content /*THis simple command makes everthing not break when the 
+    screen gets smaller. It doesnt totally make the web page responive. but certannly fixes a 
+    big problem */
 }
 
 a {
@@ -31,6 +34,7 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 30px;
+    width: 100%;
 }
 
 #headerLogo {
@@ -236,3 +240,5 @@ align-items: center;
 color: white;
 height: 75px;
  }
+
+ 
